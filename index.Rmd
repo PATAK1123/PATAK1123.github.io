@@ -1,0 +1,31 @@
+---
+title       : 
+subtitle    : 
+author      : 
+job         : 
+framework   : html5slides        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Slide 1
+
+```{r, echo=FALSE}
+y <- 1:10 + rnorm(10)
+x1 <- 2:11 + rnorm(10)
+x2 <- 3:12 + rnorm(10)
+x3 <- rep(1, 10)
+fit <- lm(y ~ x1 + x2 + x3)
+summary(fit)
+```
+
+--- .class #id 
+
+## Slide 2
+
+
+
+
